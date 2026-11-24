@@ -1,2 +1,5 @@
 # README.md
-Repositorio CH
+Repositorio de Lautaro Chacon
+<img width="1906" height="1020" alt="image" src="https://github.com/user-attachments/assets/50a00fb4-5f33-43a3-9e3e-c89d6da03f75" />
+Elegí el modo de Red Interna porque el laboratorio contiene una máquina atacante (Kali Linux) y máquinas deliberadamente vulnerables, por lo que el objetivo principal es el aislamiento. En este modo, VirtualBox crea un segmento de red virtual al que solo tienen acceso las máquinas virtuales conectadas a él: no existe comunicación con el equipo anfitrión, con la red local física ni con Internet. De esta forma, el tráfico generado durante los escaneos y la explotación queda contenido dentro del laboratorio, y las máquinas vulnerables no quedan expuestas a terceros. Descarté el modo Puente (Bridged) porque conecta cada máquina virtual directamente a la red física como si fuera un equipo más, con su propia IP dentro de la LAN. Eso expondría los servicios vulnerables a cualquier dispositivo de la red. Además, cualquier escaneo o ataque podría alcanzar por error equipos reales (otros ordenadores, el router o dispositivos de otras personas), con los riesgos técnicos y legales que eso implica.
+<img width="1898" height="1008" alt="image" src="https://github.com/user-attachments/assets/ad518bcc-9e3b-42c0-845a-3fad62e94e97" />
